@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar {
+    height: 150px;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.quote-container {
+    height: 545px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.quote-container .quote {
+    display: block;
+    padding-top: 180px;
+}
+
+.quote-container .quote h1 {
+    max-width: 100%;
+    font-size: 2.5rem;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px) {
+    .quote-container .quote h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.quote-container .author{
+   display: block;
+}
+
+.quote-container .author h4 {
+    max-width: 100%;
+    font-size: 1rem;
+    color: white;
+    padding-right: 50px;
+    text-align: end;
+}
+
+@media only screen and (max-width:768px) {
+    .quote-container .author h4 {
+        font-size: 0.7rem;
+    }
+}
+
+.quote-container .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.quote-container .button button {
+    height: 80px;
+    width: 80px;
+    color: white;
+    background-color: #1F6032;
+    border: 3px solid white;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.quote-container .button button:hover {
+    height: 80px;
+    width: 80px;
+    color: white;
+    background-color: #29773E;
+    border: 3px solid white;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px) {
+    .quote-container .button button {
+        height: 60px;
+        width: 60px;
+        color: white;
+        background-color: #1F6032;
+        border: 2px solid white;
+        border-radius: 3px;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    .quote-container .button button:hover {
+        height: 60px;
+        width: 60px;
+        color: white;
+        background-color: #29773E;
+        border: 2px solid white;
+        border-radius: 3px;
+        font-size: 1rem;
+        text-align: center;
+        cursor: pointer;
+    }
+}
